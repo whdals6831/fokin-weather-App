@@ -5,8 +5,6 @@ import Weather from './Weather';
 import axios from 'axios';
 import * as Location from 'expo-location';
 
-const API_KEY = 'd0259d268096477ab7e1a5d69279d6bc';
-
 export default class App extends React.Component {
   state = {
     isLoading: true
